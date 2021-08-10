@@ -6,9 +6,16 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "classnames": "^2.3.1",
+    "enzyme": "^3.11.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-router-dom": "5.0.1",
     "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.4",
+    "sass": "^1.37.5",
+    "tailwindcss": "^2.2.7",
+    "uuid": "^8.3.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -18,10 +25,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -34,5 +38,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-jest": "^26.6.0",
+    "jest": "26.6.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "react-test-renderer": "^17.0.2"
   }
 }

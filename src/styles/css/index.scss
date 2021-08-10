@@ -1,0 +1,116 @@
+.delete-icon{
+  display: none;
+  position:absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.item-wrapper:hover{
+  .delete-icon{
+    display: block;
+  }
+}
+
+/* Close Button */
+
+[class*='close-'] {
+  color: white;
+  font: 28px/100% arial, sans-serif;
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+  top: 10px;
+}
+
+[class*='close-']:hover{
+  color: gray;
+}
+
+.close-classic:after {
+  content: 'X'; /* ANSI X letter */
+}
+
+.close-thin:after {
+  content: '×'; /* UTF-8 symbol */
+}
+
+.close-thik:after {
+  content: '✖'; /* UTF-8 symbol */
+}
+
+.mm-close {
+  position: absolute;
+    right: 43px;
+    top: -29px;
+    font: 18px/100% arial, sans-serif;
+    display: inline-block;
+    min-width: 130px;
+    line-height: 31px;
+    height: 35px;
+    padding: 0 8px;
+    border: 1px solid #202020;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mm-ok {
+  position: absolute;
+  right: 210px;
+  top: -29px;
+  font: 18px/100% arial, sans-serif;
+  display: inline-block;
+  min-width: 130px;
+  line-height: 31px;
+  height: 35px;
+  padding: 0 8px;
+  border: 1px solid #202020;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-radius: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-link{
+  margin-left: 5px;
+}
+
+.modalBody{
+  padding: 43px 10px 20px;
+  height: 80%;
+  width: 100%;
+  text-align: center;
+ 
+
+  h2{
+    font-weight: bold;
+    font-size: 19px;
+    color: gray;
+    margin-top: 15px;
+  }
+  h1{
+    font-weight: bold;
+    font-size: 21px;
+    color: black;
+  }
+
+}
+
+#name-error{
+  color: red;
+  font-size: 12px;
+}
+
+#url-error {
+  color: red;
+  font-size: 12px;
+}
