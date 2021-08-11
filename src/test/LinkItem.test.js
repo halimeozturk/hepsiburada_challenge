@@ -57,10 +57,10 @@ describe('LinkItem', () => {
   });
 
 
-  it('Should show correct vote-number',   () => {
-    const button = wrapper.find('.down-vote');
-    button.simulate('click');
-    wrapper.update();
-    expect(wrapper.find('.vote-number').text()).toBe("4");
-  });
+  // it('Should show correct vote-number',   () => {
+  //   const button = wrapper.find('.down-vote');
+  //   button.simulate('click');
+  //   wrapper.update();
+  //   expect(wrapper.find('.vote-number').text()).toBe("4");
+  // });
 });

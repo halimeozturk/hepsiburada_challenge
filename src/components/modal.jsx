@@ -77,7 +77,7 @@ const close =(e)=>{
 }
 
 return (
-  <div className={ props.containerClassName}>
+  <div id="modal" className={ props.containerClassName}>
     <div className={ props.className} style={modalStyle}>
       <div className="modalHeader" style={modalHeaderStyle}>
         <div className="text-link">Remove Link</div>
